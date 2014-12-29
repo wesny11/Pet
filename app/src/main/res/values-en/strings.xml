@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="B_myPets">My Pets</string>
+    <string name="B_Settings">Settings</string>
+    <string name="B_About">About</string>
+    <string name="copyright">All rights reserved. T &amp; V 2014 - 2015</string>
+    <string name="About">Application My PET was developed by Tomaž Gorenc and Vesna Horvat. The application is designed for users with pets for storing basic data and warnings.</string>
+    <string name="title_activity_about">About</string>
+</resources>

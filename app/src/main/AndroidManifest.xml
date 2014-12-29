@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pet.emp.fri.mypet" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".myPet"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".allPets"
+            android:label="@string/title_activity_all_pets" >
+        </activity>
+        <activity
+            android:name=".addPet"
+            android:label="@string/title_activity_add_pet" >
+        </activity>
+        <activity
+            android:name=".viewPet"
+            android:label="@string/title_activity_view_pet" >
+        </activity>
+        <activity
+            android:name=".addReminder"
+            android:label="@string/title_activity_add_reminder" >
+        </activity>
+    </application>
+
+</manifest>
